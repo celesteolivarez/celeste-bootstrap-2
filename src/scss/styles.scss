@@ -18,9 +18,28 @@
 // $font-family-sans-serif: "Helvetica Neue";
 
 // Import Bootstrap styles:
+$primary: #bf5700;
+$body-bg: #ededed;
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials:
 
 // Custom styles:
+// header lead lighter
+header {
+    .lead {
+      font-weight: lighter;
+    }
+  }
 
+  .tagline {
+    font-style: italic;
+    text-align: right;
+  }
+
+  .site-footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+  }
